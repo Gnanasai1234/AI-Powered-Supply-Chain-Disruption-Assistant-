@@ -128,13 +128,3 @@ The saved model metrics file reports held-out results from a 70/15/15 train/vali
 ## Security and limitations
 
 The local account flow uses expiring, revocable bearer sessions and stores password scrypt hashes. This is intended for a local capstone demonstration, not production authentication. Keep real API credentials in the ignored root `.env`; `.env.example` contains placeholders. The dataset has no event timestamp or supplier identity field, and its external provenance is not recorded in this repository. Recommendations compare historical associations and saved model estimates; they do not establish causality. The resilience score is explicitly a project heuristic.
-
-## Documentation
-
-- [Architecture diagram](architecture/Architecture_Diagram.pdf)
-- [Design document](design/Design_Document.pdf)
-- [API documentation](docs/API_Documentation.pdf)
-- [Dataset details](docs/Dataset_Details.pdf)
-- [Evaluation report](docs/Evaluation_Report.pdf)
-- [Capstone compliance report](docs/CAPSTONE_COMPLIANCE_REPORT.md)
-- [Presentation outline](presentation/Project_Presentation_Outline.md). The editable PowerPoint remains outstanding in the compliance report because the required presentation authoring runtime is unavailable here.
